@@ -364,7 +364,7 @@ main table tbody tr:last-child td {
     border: none;
 }
 
-main .recent_order a {
+main table tbody tr .a {
     text-align: center;
     display: block;
     margin: 1rem;
