@@ -73,9 +73,9 @@ h5{
 small{
     font-size: 0.75rem;
 }
-.profile-photo{
-    width: 2.8rem;
-    height: 2.8rem;
+.profile-photo img{
+    width: 2.2rem;
+    height: 2.2rem;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -342,6 +342,7 @@ main table {
     box-shadow: var(--box-shadow);
     transition: all .3s ease;
     color: var(--clr-dark);
+    margin-bottom: 38px;
 }
 
 main table:hover {
@@ -369,4 +370,65 @@ main table tbody tr .a {
     display: block;
     margin: 1rem;
 }
+
+/***********
+ start right side
+ **********/
+
+ .right {
+    margin-top: 1.3rem;
+ }
+
+ .right h2 {
+    color: var(--clr-dark);
+ }
+
+ .right .top {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+ }
+
+ .right .top button {
+    display: none;
+ }
+
+ .right .theme_toggler {
+    background-color: var(--clr-white);
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .right .theme_toggler span.active {
+    background-color: var(--clr-primary);
+    color: #fff;
+ }
+
+ .right .top .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+
+ .right .top .profile .info p b {
+    font-weight: 650;
+    font-size: 20px;
+ }
+ .right .top .profile .info p {
+    font-size: 15px;
+ }
+
+ .right .top .profile .profile-photo {
+    margin-left: 1rem;
+ }
+
+
+
+
+
 
