@@ -371,6 +371,22 @@ main table tbody tr .a {
     margin: 1rem;
 }
 
+main .further {
+    margin-top: 30px;
+}
+
+main .further a {
+    text-align: center;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+main .further a:hover {
+    color: var(--clr-primary);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+
 /***********
  start right side
  **********/
